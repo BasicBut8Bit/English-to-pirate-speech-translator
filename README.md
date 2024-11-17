@@ -67,12 +67,6 @@ The project includes an array of motivational pirate catchphrases such as:
 
 Enhanced Translation: Improve the dictionary to handle more complex phrases and variations.
 
-Animations: Add animations to the pirate image for more engaging interactions.
-
-Speech-to-Text: Implement speech recognition for hands-free input.
-
-Audio Playback: Add audio feedback with a pirate voice reading the translation.
-
 <h2>Technologies Used</h2>
 
 HTML: Markup language for structuring the web page.
