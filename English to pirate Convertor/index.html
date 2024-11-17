@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pirate Translator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <img id="pirateImage" src="https://lh3.googleusercontent.com/pw/AP1GczPa8hgv4Vn3yjZdZlA-upYaDGE3Zf3mQ89G2YhWS-LJmxzwnOy31AFERndPECzGeScACSMcM7kzmYyj1WUTUHGZqIjmrImW8NfisGQGZ9jdI56IiA=w2400" alt="Pirate Image" height="300" width="244">
+        <div id="translator">
+            <h2>English to Pirate Translator</h2>
+            <textarea id="inputText" placeholder="Enter a phrase to translate..."></textarea>
+            <div class="checkbox">
+                <input type="checkbox" id="addYarr">
+                <label for="addYarr">Add "Yarr!" at the end</label>
+            </div>
+            <div class="checkbox">
+                <input type="checkbox" id="speakTranslation">
+                <label for="speakTranslation">Speak translation</label>
+            </div>
+            <button onclick="translateToPirate()">Translate</button>
+            <p id="result"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
